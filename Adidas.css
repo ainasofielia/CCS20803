@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@400;700&family=Silkscreen:wght@400;700&display=swap');
+
+body {
+    font-family: 'Kalnia', serif;
+    font-family: 'Silkscreen', sans-serif;
+  
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+
+.title{
+    font-weight: 600;
+}
+
+/*Header*/
+
+#menu a, button{
+    font-size: 18px !important;
+    font-weight: 600;
+    
+}
+
+#menu a{
+    color:#000000;
+}
+
+.carousel-inner {
+    max-height:39rem !important;
+}
+
+
+
+/*Product*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  
+/* Style the box container */
+.box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px; /* Add margin around each box */
+    width: 300px; /* Set fixed width for all boxes */
+    height: 400px; /* Set fixed height for all boxes */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack children vertically */
+  }
+  /* Ensure image and detail boxes fill available space */
+.img-box, .detail-box {
+    flex: 1; /* Distribute available space equally among children */
+  }
+  /* Style the image box */
+  .img-box {
+    text-align: center;
+  }
+  
+  /* Style the image inside the image box */
+  .img-box img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style the detail box */
+  .detail-box {
+    text-align: center;
+  }
+  
+  /* Style the heading inside the detail box */
+  .detail-box h6 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Optional: Add hover effect to the box */
+  .box:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+/* navbar */
+
+.navbar-brand img {
+    width:100px; /* Adjust the width of the logo as needed */
+    height: auto;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between; /* Align items at each end of the row */
+  align-items: center; /* Align items vertically in the middle */
+}
+
+.animated-div {
+  position: relative;
+  animation: moveLeftToRight 40s linear infinite;
+ }
+
+ .navbar-link{
+  
+  display: flex;
+ }
+
+ ul{
+ margin: 40px;
+ }
+
+
+.navbar-nav {
+  display: flex; /* Make the navbar links flex container */
+
+  list-style-type: none; /* Remove list symbols */
+}
+
+.nav-item {
+  margin-left: 15px; /* Add margin between navbar items */
+}
+
+.nav-link {
+  color: #333; /* Text color */
+  text-decoration: none; /* Remove underline */
+  padding: 10px; /* Add padding around navbar links */
+}
+
+.nav-link:hover {
+  color: #555; /* Darken text color on hover */
+}
+
+  
+
+
+td.bottom_td {
+    font-size: 13px;
+    font-weight: bold;
+    
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+
+td.bottom_td button {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #dbd2d2; 
+    color: rgb(0, 0, 0); 
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+
+/*FOOTER*/
+
+footer {
+    min-height: 100px;;
+}
+footer p{
+    text-align:center;
+}
+#iconos {
+  display: flex;
+  justify-content: center; /* Align items horizontally in the center */
+}
+
+#iconos i {
+  color: #000000;
+  font-size: 26px;
+  padding: 0 8px;
+}
+
+
+.shop_section .box .img-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 15px 30px;
+    height: 245px;
+    background-color: #ffffff;
+  }
+  
+  .shop_section .box .img-box img {
+    max-width: 100%;
+    max-height: 145px;
+  }
+  
+
+ 
+   
+   @keyframes moveLeftToRight {
+     0% {
+       left: 0;
+    }
+     100% {
+       left: 100%;
+    }
+   }
+
+   /*MEDIA QUERIES*/
+
+
+
+@media (max-width: 1250px) {
+    .image img{
+        max-width: 200px;
+    }
+}
+
