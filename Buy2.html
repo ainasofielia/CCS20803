@@ -8,7 +8,137 @@
     <title>Thank you Page</title>
   </head>
 
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@400;700&family=Silkscreen:wght@400;700&display=swap');
 
+body {
+    font-family: 'Kalnia', serif;
+    font-family: 'Silkscreen', sans-serif;
+  
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.title{
+    font-weight: 600;
+}
+
+/*Header*/
+
+#menu a{
+    font-size: 18px !important;
+    font-weight: 600;
+    
+}
+
+#menu a{
+    color:#000000;
+}
+
+/* navbar */
+
+.navbar-brand img {
+  width:100px; 
+  height: auto;
+}
+
+.navbar-container {
+display: flex;
+justify-content: space-between; 
+align-items: center; 
+}
+
+.animated-div {
+position: relative;
+animation: moveLeftToRight 40s linear infinite;
+}
+
+.navbar-link{
+
+display: flex;
+}
+
+ul{
+margin: 40px;
+}
+
+
+.navbar-nav {
+display: flex; 
+
+list-style-type: none;
+}
+
+.nav-item {
+margin-left: 15px; 
+}
+
+.nav-link {
+color: #333; 
+text-decoration: none; 
+padding: 10px;
+}
+
+.nav-link:hover {
+color: #555; 
+}
+
+@keyframes moveLeftToRight {
+  0% {
+    left: 0;
+ }
+  100% {
+    left: 100%;
+ }
+}
+
+/* Style the shop_section */
+.shop_section {
+    background-color: #ffffff; 
+    padding: 50px 0; 
+  }
+  
+.container {
+    max-width: 960px; 
+    margin: 0 auto; 
+  }
+
+#productos {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 50vh; 
+}
+
+h1 {
+    font-size: 36px; 
+    font-weight: bold; 
+    color: #000000; 
+    margin-top: 50px;
+    margin-bottom: 30px; 
+  }
+
+  /*FOOTER*/
+
+  footer {
+    min-height: 100px;
+    margin-top: 40px;
+  }
+  footer p{
+    text-align:center;
+  }
+  #iconos {
+  display: flex;
+  justify-content: center; /* Align items horizontally in the center */
+  }
+  
+  #iconos i {
+  color: #000000;
+  font-size: 26px;
+  padding: 0 8px;
+  }
+</style>
   <body>
 
 
